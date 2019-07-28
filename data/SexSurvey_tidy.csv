@@ -1,0 +1,362 @@
+﻿ip_address,duration,location_latitude,location_longitude,student,college,year,age,gender,major_one,major_two,athlete,greek,politics,religious,religion,partners,partners_college,relationship
+209.147.148.20,71,33.41479492,-111.9093018,Yes,Arizona State University ,Junior,21,Male,Mechanical Engineering,NA,No,Yes,Neither,No,NA,3,2,Yes
+24.4.127.216,71,37.38450623,-122.0881042,Yes,California Polytechnic State University,Sophomore,19,Female,Child Development,NA,No,No,Neither,No,NA,3,1,Yes
+128.237.166.43,93,40.44389343,-79.95610046,Yes,Carnegie Mellon University,Senior,21,Other,Biology,NA,No,No,Very Liberal,Yes,Christianity,0,0,No
+45.37.68.129,200,35.94659424,-78.79769897,Yes,Duke University,Senior,21,Male,Biology,NA,No,Yes,Somewhat Liberal,No,NA,36,22,No
+69.119.104.196,46,40.9151001,-73.78179932,Yes,Duke University,Sophomore,19,Female,Computer Science,NA,No,No,Very Liberal,No,NA,34,25,Yes
+152.3.43.2,39,35.9954071,-78.90190125,Yes,Duke University,Senior,22,Male,Computer Science,NA,No,Yes,Very Liberal,No,NA,25,20,Yes
+152.3.43.20,46,35.9954071,-78.90190125,Yes,Duke University,Senior,22,Female,Gender Sexuality & Feminist Studies,NA,No,No,Very Liberal,No,NA,25,20,Yes
+152.3.43.28,52,35.9954071,-78.90190125,Yes,Duke University,Senior,21,Female,Neuroscience,NA,No,No,Somewhat Liberal,No,NA,25,21,No
+152.3.43.21,115,35.9954071,-78.90190125,Yes,Duke University,Sophomore,19,Female,Economics,NA,No,No,"Somewhat Liberal,Very Liberal",No,NA,25,21,No
+71.232.13.144,31,42.38000488,-71.13289642,Yes,Duke University,Freshman,18,Female,Biology,NA,Yes,Yes,Somewhat Liberal,Yes,Judaism,24,9,Yes
+160.39.198.74,69,40.80059814,-73.96530151,Yes,Duke University,Sophomore,19,Female,Economics,NA,No,No,Somewhat Liberal,No,NA,24,20,Yes
+107.77.235.214,77,37.75100708,-97.8219986,Yes,Duke University,Junior,21,Female,Literature,NA,No,No,Very Liberal,No,NA,24,22,Yes
+152.3.43.22,37,35.9954071,-78.90190125,Yes,Duke University,Sophomore,19,Female,Visual Arts,NA,No,No,Neither,No,NA,21,18,No
+24.163.60.137,61,36.03779602,-78.9858017,Yes,Duke University,Senior,21,Male,Biology,NA,No,Yes,Somewhat Conservative,Yes,Christianity,20,11,Yes
+152.3.43.188,108,35.9954071,-78.90190125,Yes,Duke University,Junior,20,Male,Biology,French,No,Yes,Very Liberal,No,NA,20,15,No
+152.3.43.36,112,35.9954071,-78.90190125,Yes,Duke University,Sophomore,20,Female,Computer Science,NA,No,No,"Somewhat Liberal,Very Liberal",No,NA,20,2,Yes
+174.193.139.132,38,35.13110352,-80.85119629,Yes,Duke University,Senior,22,Male,Sociology,NA,No,Yes,Somewhat Liberal,No,NA,18,17,Yes
+152.3.43.23,48,35.9954071,-78.90190125,Yes,Duke University,Sophomore,19,Female,Electrical & Computer Engineering,Computer Science,No,No,Very Liberal,No,NA,17,17,Yes
+198.86.29.23,825,35.9954071,-78.90190125,Yes,Duke University,Senior,22,Female,Evolutionary Anthropology,Cultural Anthropology,No,Yes,Very Liberal,Yes,Christianity,17,16,Yes
+152.3.43.20,40,35.9954071,-78.90190125,Yes,Duke University,Sophomore,20,Female,Public Policy Studies,NA,No,No,Somewhat Liberal,No,NA,15,3,No
+152.3.43.188,44,35.9954071,-78.90190125,Yes,Duke University,Junior,20,Female,Economics,NA,No,Yes,"Neither,Somewhat Liberal",No,NA,15,15,No
+152.3.43.2,55,35.9954071,-78.90190125,Yes,Duke University,Senior,21,Female,International Comparative Studies,Global Health,No,No,Somewhat Liberal,No,NA,15,13,No
+152.3.43.2,59,35.9954071,-78.90190125,Yes,Duke University,Freshman,18,Female,Public Policy Studies,NA,No,No,Somewhat Conservative,Yes,Islam,15,12,No
+76.182.34.92,68,35.94659424,-78.79769897,Yes,Duke University,Junior,21,Female,Mechanical Engineering,NA,No,No,"Somewhat Conservative,Somewhat Liberal",No,NA,15,8,No
+152.3.43.21,88,35.9954071,-78.90190125,Yes,Duke University,Senior,21,Female,Computer Science,NA,No,Yes,Somewhat Liberal,No,NA,15,15,Yes
+152.3.43.36,228,35.9954071,-78.90190125,Yes,Duke University,Junior,20,Female,Biology ,NA,No,Yes,Very Liberal,No,NA,15,13,No
+152.3.43.2,281,35.9954071,-78.90190125,Yes,Duke University,Freshman,19,Female,International Comparative Studies,NA,No,No,Very Liberal,Yes,Christianity,15,6,No
+24.163.83.4,87,36.03779602,-78.9858017,Yes,Duke University,Senior,22,Female,Psychology,NA,No,Yes,Very Liberal,No,NA,14,12,Yes
+99.203.21.93,53,36.07260132,-79.79199982,Yes,Duke University,Sophomore,19,Female,Neuroscience,NA,No,Yes,Very Liberal,No,NA,13,11,Yes
+198.86.29.23,59,35.9954071,-78.90190125,Yes,Duke University,Senior,22,Female,Sociology ,NA,No,Yes,Very Liberal,No,NA,13,12,Yes
+198.86.29.23,205,35.9954071,-78.90190125,Yes,Duke University,Sophomore,20,Female,Neuroscience,NA,No,Yes,Somewhat Liberal,No,NA,13,7,No
+107.77.233.181,61,32.29879761,-90.18479919,Yes,Duke University,Sophomore,20,Male,Electrical & Computer Engineering,NA,No,Yes,Somewhat Liberal,No,NA,12,7,No
+174.194.15.153,70,35.21569824,-80.82620239,Yes,Duke University,Sophomore,19,Female,Biology ,NA,No,No,Very Liberal,Yes,Other,12,6,No
+152.3.43.28,93,35.9954071,-78.90190125,Yes,Duke University,Senior,21,Female,Neuroscience,NA,No,Yes,Very Liberal,No,NA,12,10,Yes
+152.3.43.2,223,35.9954071,-78.90190125,Yes,Duke University,Freshman,19,Female,Electrical & Computer Engineering,Computer Science,No,No,Somewhat Conservative,Yes,Christianity,12,8,No
+152.3.43.188,119,35.9954071,-78.90190125,Yes,Duke University,Sophomore,18,Female,Biology,NA,No,No,Very Liberal,No,NA,11,10,No
+174.109.67.205,38,35.9954071,-78.90190125,Yes,Duke University,Senior,22,Male,Economics,NA,No,Yes,Somewhat Liberal,No,NA,10,10,No
+198.86.29.23,50,35.9954071,-78.90190125,Yes,Duke University,Freshman,19,Male,Public Policy Studies,NA,Yes,Yes,Somewhat Liberal,Yes,Christianity,10,3,Yes
+152.3.43.188,52,35.9954071,-78.90190125,Yes,Duke University,Senior,22,Male,Public Policy Studies,NA,No,No,Very Liberal,Yes,Christianity,10,9,No
+152.3.43.24,61,35.9954071,-78.90190125,Yes,Duke University,Sophomore,NA,Female,Biology,Global Health,No,Yes,Very Liberal,No,NA,10,8,Yes
+107.77.237.225,63,37.75100708,-97.8219986,Yes,Duke University,Senior,22,Female,Biology,NA,No,Yes,Very Liberal,No,NA,10,8,No
+152.3.43.21,64,35.9954071,-78.90190125,Yes,Duke University,Sophomore,20,Male,Public Policy Studies,NA,No,Yes,"Somewhat Liberal,Very Liberal",Yes,Christianity,10,10,No
+152.3.43.188,69,35.9954071,-78.90190125,Yes,Duke University,Junior,20,Female,Environmental Science,NA,No,Yes,Very Liberal,No,NA,10,10,No
+174.194.26.97,69,35.227005,-79.96209717,Yes,Duke University,Sophomore,19,Female,Economics,Computer Science,No,No,Somewhat Liberal,Yes,Christianity,10,6,No
+152.3.43.20,79,35.9954071,-78.90190125,Yes,Duke University,Junior,20,Female,Biomedical Engineering,NA,No,No,Very Liberal,No,NA,10,8,No
+198.86.29.23,79,35.9954071,-78.90190125,Yes,Duke University,Junior,21,Female,Computer Science,NA,No,Yes,Somewhat Liberal,Yes,Christianity,10,10,Yes
+50.92.180.8,126,49.27670288,-123.1300049,Yes,Duke University,Sophomore,20,Male,Electrical & Computer Engineering,NA,No,Yes,Very Liberal,No,NA,10,6,No
+71.232.13.144,21,42.38000488,-71.13289642,Yes,Duke University,Freshman,18,Male,NA,NA,Yes,Yes,Neither,Yes,Judaism,9,6,Yes
+152.3.43.22,39,35.9954071,-78.90190125,Yes,Duke University,Sophomore,19,Male,Statistical Science,Economics,No,Yes,Somewhat Liberal,No,NA,9,7,Yes
+152.3.43.28,43,35.9954071,-78.90190125,Yes,Duke University,Sophomore,20,Female,Interdisciplinary Major,NA,No,No,Somewhat Liberal,No,NA,9,3,Yes
+152.3.43.21,54,35.9954071,-78.90190125,Yes,Duke University,Sophomore,20,Male,Mechanical Engineering,NA,No,Yes,"Somewhat Conservative,Neither",No,NA,9,3,No
+107.77.232.67,94,37.75100708,-97.8219986,Yes,Duke University,Junior,20,Male,Economics,NA,Yes,No,Somewhat Conservative,Yes,Judaism,9,4,No
+152.3.43.188,97,35.9954071,-78.90190125,Yes,Duke University,Junior,20,Female,Psychology ,NA,No,No,Very Liberal,No,NA,9,7,No
+152.3.43.2,100,35.9954071,-78.90190125,Yes,Duke University,Freshman,18,Male,Cultural Anthropology,NA,No,No,Very Liberal,No,NA,9,6,Yes
+152.3.43.20,108,35.9954071,-78.90190125,Yes,Duke University,Sophomore,NA,Male,Economics,NA,No,No,Somewhat Liberal,Yes,Buddhism,9,8,No
+152.3.43.21,36,35.9954071,-78.90190125,Yes,Duke University,Senior,22,Male,Public Policy Studies,NA,No,No,Somewhat Liberal,No,NA,8,8,No
+152.3.43.188,39,35.9954071,-78.90190125,Yes,Duke University,Junior,21,Male,Sociology,NA,Yes,No,Somewhat Conservative,No,NA,8,2,Yes
+152.3.43.18,45,35.9954071,-78.90190125,Yes,Duke University,Junior,20,Female,Biomedical Engineering,NA,No,Yes,Very Liberal,No,NA,8,8,No
+152.3.43.188,45,35.9954071,-78.90190125,Yes,Duke University,Sophomore,19,Male,Public Policy Studies,NA,No,Yes,Somewhat Conservative,No,NA,8,7,No
+107.77.232.212,54,33.52070618,-86.80249786,Yes,Duke University,Sophomore,20,Male,Public Policy Studies,NA,No,Yes,Somewhat Liberal,No,NA,8,6,Yes
+152.3.43.20,59,35.9954071,-78.90190125,Yes,Duke University,Sophomore,20,Male,Economics ,NA,No,Yes,Very Conservative,No,NA,8,6,No
+198.86.29.23,64,35.9954071,-78.90190125,Yes,Duke University,Junior,20,Female,Engineering,NA,No,Yes,Neither,Yes,Christianity,8,8,Yes
+152.3.43.2,79,35.9954071,-78.90190125,Yes,Duke University,Freshman,19,Female,Psychology,NA,No,No,Very Liberal,No,NA,8,2,No
+152.3.43.20,97,35.9954071,-78.90190125,Yes,Duke University,Senior,22,Male,Biology,NA,No,No,Somewhat Conservative,Yes,Islam,8,6,No
+152.3.43.23,99,35.9954071,-78.90190125,Yes,Duke University,Junior,20,Female,Neuroscience,NA,No,No,Very Liberal,No,NA,8,7,No
+152.3.43.21,202,35.9954071,-78.90190125,Yes,Duke University,Junior,21,Male,Electrical & Computer Engineering,Computer Science,No,No,Neither,No,NA,8,6,Yes
+152.3.43.20,330,35.9954071,-78.90190125,Yes,Duke University,NA,22,Male,Computer Science,NA,No,No,Somewhat Liberal,No,NA,8,8,No
+174.194.22.154,6389,35.21800232,-80.7858963,Yes,Duke University,Senior,22,Male,Statistical Science ,NA,No,No,Somewhat Liberal,No,NA,8,7,Yes
+152.3.43.20,44,35.9954071,-78.90190125,Yes,Duke University,Sophomore,19,Male,Computer Science,NA,No,Yes,Somewhat Liberal,No,NA,7,2,Yes
+152.3.43.2,51,35.9954071,-78.90190125,Yes,Duke University,Freshman,19,Female,Neuroscience,NA,No,No,Very Liberal,No,NA,7,1,Yes
+152.3.43.188,53,35.9954071,-78.90190125,Yes,Duke University,Sophomore,19,Female,Electrical & Computer Engineering,Computer Science,No,No,Somewhat Liberal,No,NA,7,6,No
+12.176.124.251,70,34.08630371,-118.4896011,Yes,Duke University,Sophomore,20,Male,Economics,NA,No,Yes,Somewhat Liberal,No,NA,7,6,No
+152.3.43.20,89,35.9954071,-78.90190125,Yes,Duke University,Junior,21,Female,Economics,Political Science,No,Yes,Very Liberal,No,NA,7,6,Yes
+24.163.85.36,105,36.0355072,-78.8391037,Yes,Duke University,Senior,21,Female,Public Policy Studies,NA,No,No,Somewhat Liberal,No,NA,7,6,No
+152.3.43.22,35,35.9954071,-78.90190125,Yes,Duke University,Junior,20,Male,Biomedical Engineering,Electrical & Computer Engineering,No,Yes,Somewhat Conservative,Yes,Christianity,6,5,No
+152.3.43.28,39,35.9954071,-78.90190125,Yes,Duke University,Sophomore,19,Female,Public Policy Studies,NA,No,Yes,Very Liberal,No,NA,6,3,Yes
+152.3.43.20,58,35.9954071,-78.90190125,Yes,Duke University,Junior,21,Female,Public Policy Studies,NA,No,Yes,"Somewhat Liberal,Very Liberal",No,NA,6,5,No
+152.3.43.21,75,35.9954071,-78.90190125,Yes,Duke University,Sophomore,19,Female,Computer Science,NA,No,Yes,Somewhat Liberal,No,NA,6,6,Yes
+152.3.43.23,79,35.9954071,-78.90190125,Yes,Duke University,Junior,20,Female,Psychology ,NA,No,Yes,Very Liberal,No,NA,6,5,Yes
+198.86.29.23,82,35.9954071,-78.90190125,Yes,Duke University,Junior,20,Female,Environmental Science & Policy ,NA,No,No,Very Liberal,No,NA,6,6,Yes
+152.3.43.2,88,35.9954071,-78.90190125,Yes,Duke University,Freshman,18,Female,Public Policy Studies,Chemistry,No,No,Very Liberal,No,NA,6,2,No
+198.86.29.23,95,35.9954071,-78.90190125,Yes,Duke University,Sophomore,19,Female,Public Policy Studies,NA,No,Yes,Very Liberal,Yes,Islam,6,5,No
+174.194.28.101,136,34.11920166,-80.86299896,Yes,Duke University,Junior,21,Female,Statistical Science,NA,No,No,Very Liberal,No,NA,6,3,Yes
+152.3.43.23,29,35.9954071,-78.90190125,Yes,Duke University,Junior,21,Male,Economics,NA,No,Yes,Somewhat Conservative,No,NA,5,3,Yes
+152.3.43.28,37,35.9954071,-78.90190125,Yes,Duke University,Sophomore,20,Female,Public Policy Studies,NA,No,Yes,Very Liberal,No,NA,5,5,No
+174.109.66.192,38,36.03779602,-78.9858017,Yes,Duke University,Senior,22,Male,Public Policy Studies,NA,No,Yes,Somewhat Conservative,No,NA,5,4,No
+198.86.29.23,41,35.9954071,-78.90190125,Yes,Duke University,Sophomore,20,Male,Computer Science,NA,No,No,Somewhat Liberal,No,NA,5,5,No
+152.3.43.23,44,35.9954071,-78.90190125,Yes,Duke University,Senior,22,Female,Visual Arts,NA,No,No,"Somewhat Conservative,Somewhat Liberal",No,NA,5,5,No
+152.3.43.2,45,35.9954071,-78.90190125,Yes,Duke University,Sophomore,20,Female,Visual & Media Studies,NA,No,No,Very Liberal,No,NA,5,3,No
+107.77.237.234,46,37.75100708,-97.8219986,Yes,Duke University,Sophomore,19,Female,Economics,NA,No,Yes,Somewhat Liberal,No,NA,5,4,No
+152.3.43.3,50,35.9954071,-78.90190125,Yes,Duke University,Junior,20,Male,Computer Science,NA,Yes,Yes,Very Liberal,No,NA,5,3,Yes
+152.3.43.21,53,35.9954071,-78.90190125,Yes,Duke University,Sophomore,19,Male,Biomedical Engineering,NA,No,Yes,Somewhat Conservative,No,NA,5,3,Yes
+152.3.43.2,53,35.9954071,-78.90190125,Yes,Duke University,Junior,21,Female,Environmental Science & Policy,NA,No,Yes,Somewhat Liberal,No,NA,5,4,No
+152.3.43.6,54,35.9954071,-78.90190125,Yes,Duke University,Junior,21,Male,Philosophy,NA,No,No,Somewhat Liberal,No,NA,5,4,Yes
+152.3.34.67,54,35.9954071,-78.90190125,Yes,Duke University,Sophomore,20,Male,Economics,NA,No,Yes,Somewhat Liberal,No,NA,5,3,No
+152.3.43.230,54,35.9954071,-78.90190125,Yes,Duke University,Sophomore,19,Female,Political Science,NA,No,Yes,Somewhat Liberal,No,NA,5,3,No
+152.3.43.22,56,35.9954071,-78.90190125,Yes,Duke University,Sophomore,19,Male,Computer Science,NA,No,No,Somewhat Liberal,No,NA,5,2,Yes
+107.77.232.24,56,37.75100708,-97.8219986,Yes,Duke University,Freshman,18,Male,Electrical & Computer Engineering,NA,No,No,Very Liberal,No,NA,5,2,Yes
+107.77.235.6,62,37.75100708,-97.8219986,Yes,Duke University,Sophomore,19,Female,Statistical Science ,NA,No,Yes,Somewhat Liberal,Yes,Christianity,5,3,Yes
+152.3.43.36,66,35.9954071,-78.90190125,Yes,Duke University,Senior,23,Female,Biology,NA,No,No,Very Liberal,Yes,Judaism,5,4,Yes
+152.3.43.21,100,35.9954071,-78.90190125,Yes,Duke University,Sophomore,20,Male,Public Policy Studies,NA,No,No,Very Liberal,No,NA,5,4,No
+174.109.79.181,215,36.03779602,-78.9858017,Yes,Duke University,Senior,22,Female,History ,NA,No,Yes,Somewhat Conservative,Yes,Christianity,5,5,No
+152.3.43.22,38,35.9954071,-78.90190125,Yes,Duke University,Sophomore,19,Female,Computer Science,NA,No,Yes,Somewhat Liberal,No,NA,4,3,No
+152.3.43.21,39,35.9954071,-78.90190125,Yes,Duke University,Sophomore,19,Female,Neuroscience,NA,No,No,Somewhat Liberal,No,NA,4,2,No
+198.86.29.23,39,35.9954071,-78.90190125,Yes,Duke University,Sophomore,19,Male,Biomedical Engineering,NA,No,No,Somewhat Liberal,No,NA,4,1,Yes
+174.193.137.102,39,36.01620483,-80.04340363,Yes,Duke University,Freshman,18,Female,Mathematics ,NA,No,No,Very Liberal,No,NA,4,1,Yes
+198.86.29.23,39,35.9954071,-78.90190125,Yes,Duke University,Junior,20,Female,Environmental Engineering,NA,No,Yes,Somewhat Liberal,Yes,Christianity,4,4,No
+198.86.29.23,39,35.9954071,-78.90190125,Yes,Duke University,Freshman,18,Female,Civil Engineering,NA,No,No,Very Liberal,No,NA,4,4,No
+98.26.46.170,41,36.0355072,-78.8391037,Yes,Duke University,Senior,22,Female,Biomedical Engineering,NA,No,Yes,Neither,Yes,Christianity,4,2,Yes
+152.3.43.20,43,35.9954071,-78.90190125,Yes,Duke University,Junior,21,Male,Biology,NA,No,No,Neither,Yes,Islam,4,1,No
+152.3.43.22,46,35.9954071,-78.90190125,Yes,Duke University,Sophomore,20,Female,Economics,NA,Yes,No,Neither,Yes,Christianity,4,2,Yes
+152.3.43.2,47,35.9954071,-78.90190125,Yes,Duke University,Freshman,18,Female,Mechanical Engineering,NA,No,No,Very Liberal,No,NA,4,3,No
+174.194.4.34,49,35.32839966,-80.74590302,Yes,Duke University,Sophomore,20,Male,Biology,Sociology,No,No,Somewhat Liberal,No,NA,4,2,Yes
+152.3.43.188,52,35.9954071,-78.90190125,Yes,Duke University,Senior,21,Female,Public Policy Studies,NA,Yes,Yes,Somewhat Liberal,Yes,Christianity,4,3,Yes
+152.3.43.21,52,35.9954071,-78.90190125,Yes,Duke University,Sophomore,NA,Male,NA,NA,No,Yes,Somewhat Liberal,No,NA,4,2,No
+107.77.233.57,56,33.74899292,-84.38800049,Yes,Duke University,Sophomore,19,Female,Neuroscience,NA,No,No,Somewhat Liberal,No,NA,4,2,No
+152.3.43.2,56,35.9954071,-78.90190125,Yes,Duke University,Freshman,18,Male,Economics,Computer Science,No,Yes,Very Liberal,No,NA,4,3,No
+99.203.20.23,57,35.18330383,-80.64230347,Yes,Duke University,Senior,21,Female,Physics ,NA,No,No,Somewhat Liberal,Yes,Christianity,4,4,Yes
+152.3.43.188,59,35.9954071,-78.90190125,Yes,Duke University,Sophomore,19,Female,Economics,Global Health,No,Yes,Very Liberal,No,NA,4,4,No
+152.3.43.28,64,35.9954071,-78.90190125,Yes,Duke University,Sophomore,19,Male,Economics,Psychology,No,No,Somewhat Conservative,No,NA,4,1,No
+152.3.43.20,71,35.9954071,-78.90190125,Yes,Duke University,Sophomore,19,Female,Political Science,NA,No,No,Very Liberal,Yes,Christianity,4,3,Yes
+198.86.29.17,72,35.9954071,-78.90190125,Yes,Duke University,NA,25,Female,NA,NA,No,No,Very Liberal,No,NA,4,4,Yes
+152.3.43.2,80,35.9954071,-78.90190125,Yes,Duke University,Freshman,18,Male,Biology,NA,No,No,Very Liberal,No,NA,4,2,Yes
+152.3.43.2,92,35.9954071,-78.90190125,Yes,Duke University,Freshman,19,Female,Biology,NA,No,Yes,Somewhat Conservative,Yes,Christianity,4,2,No
+152.3.43.23,106,35.9954071,-78.90190125,Yes,Duke University,Junior,21,Female,Environmental Science & Policy,NA,No,No,Somewhat Liberal,No,NA,4,3,No
+152.3.43.23,136,35.9954071,-78.90190125,Yes,Duke University,Sophomore,20,Female,Mechanical Engineering,NA,No,No,Very Liberal,No,NA,4,3,Yes
+152.3.43.2,28,35.9954071,-78.90190125,Yes,Duke University,Junior,NA,Female,NA,NA,No,Yes,Somewhat Liberal,No,NA,3,1,Yes
+152.3.43.21,31,35.9954071,-78.90190125,Yes,Duke University,Junior,20,Male,Computer Science,NA,No,No,Somewhat Conservative,No,NA,3,3,Yes
+198.86.29.23,37,35.9954071,-78.90190125,Yes,Duke University,Sophomore,20,Female,Computer Science,NA,No,Yes,Somewhat Liberal,No,NA,3,1,Yes
+152.3.43.188,40,35.9954071,-78.90190125,Yes,Duke University,Sophomore,20,Female,Biology,NA,No,Yes,Very Liberal,Yes,Christianity,3,3,Yes
+152.3.43.230,40,35.9954071,-78.90190125,Yes,Duke University,Senior,22,Female,Neuroscience,NA,No,No,Very Liberal,No,NA,3,3,Yes
+107.77.232.149,42,33.52070618,-86.80249786,Yes,Duke University,Senior,21,Male,Computer Science,NA,No,No,Very Liberal,No,NA,3,2,Yes
+152.3.43.22,42,35.9954071,-78.90190125,Yes,Duke University,Sophomore,20,Female,Electrical & Computer Engineering,Computer Science,No,No,Very Liberal,No,NA,3,3,Yes
+152.3.43.2,42,35.9954071,-78.90190125,Yes,Duke University,Freshman,20,Female,Undeclared,NA,No,No,Very Liberal,No,NA,3,1,No
+107.77.237.185,43,37.75100708,-97.8219986,Yes,Duke University,Sophomore,19,Female,Public Policy Studies,NA,No,Yes,Somewhat Liberal,Yes,Hinduism,3,NA,NA
+174.193.134.109,47,35.17520142,-79.38339996,Yes,Duke University,Sophomore,19,Male,NA,NA,No,Yes,Somewhat Conservative,No,NA,3,1,Yes
+174.109.79.43,49,36.0355072,-78.8391037,Yes,Duke University,Senior,22,Female,Neuroscience,NA,No,No,Somewhat Liberal,No,NA,3,1,Yes
+174.99.46.245,50,35.94999695,-78.96160126,Yes,Duke University,Senior,21,Female,Nursing,NA,No,No,Somewhat Liberal,No,NA,3,2,Yes
+152.3.43.20,53,35.9954071,-78.90190125,Yes,Duke University,Freshman,19,Male,Neuroscience,NA,No,Yes,Very Liberal,No,NA,3,3,Yes
+152.3.43.2,56,35.9954071,-78.90190125,Yes,Duke University,Freshman,19,Female,Computer Science,NA,No,Yes,Neither,No,NA,3,2,No
+152.3.71.172,58,35.9954071,-78.90190125,Yes,Duke University,Senior,22,Male,Computer Science,NA,No,Yes,Very Liberal,No,NA,3,2,Yes
+198.86.29.23,59,35.9954071,-78.90190125,Yes,Duke University,Sophomore,20,Female,Mathematics,NA,No,No,Neither,No,NA,3,2,Yes
+152.3.43.21,62,35.9954071,-78.90190125,Yes,Duke University,Sophomore,20,Female,Electrical & Computer Engineering,Biomedical Engineering,No,No,Very Liberal,Yes,Christianity,3,1,No
+174.109.127.9,66,36.0355072,-78.8391037,Yes,Duke University,Senior,26,Female,Nursing,NA,No,No,Somewhat Conservative,No,NA,3,3,Yes
+152.3.43.28,68,35.9954071,-78.90190125,Yes,Duke University,Freshman,19,Female,Undeclared,NA,No,Yes,Neither,No,NA,3,0,No
+152.3.43.28,83,35.9954071,-78.90190125,Yes,Duke University,Senior,21,Female,NA,NA,No,No,Somewhat Liberal,No,NA,3,2,Yes
+152.3.43.6,94,35.9954071,-78.90190125,Yes,Duke University,Freshman,19,Female,Biomedical Engineering,NA,No,No,Very Liberal,No,NA,3,3,No
+152.3.43.23,94,35.9954071,-78.90190125,Yes,Duke University,Sophomore,20,Female,Public Policy Studies,NA,No,Yes,Very Liberal,No,NA,3,3,No
+24.163.88.107,217,36.03779602,-78.9858017,Yes,Duke University,Senior,21,Female,Global Health,NA,No,Yes,Somewhat Liberal,No,NA,3,2,Yes
+152.3.43.21,27,35.9954071,-78.90190125,Yes,Duke University,Junior,20,Female,NA,NA,No,No,Neither,No,NA,2,2,No
+152.3.43.21,27,35.9954071,-78.90190125,Yes,Duke University,Junior,21,Female,Economics,NA,No,No,Somewhat Liberal,Yes,Christianity,2,2,Yes
+152.3.43.21,28,35.9954071,-78.90190125,Yes,Duke University,Sophomore,19,Male,Electrical & Computer Engineering,Computer Science,No,No,Somewhat Liberal,No,NA,2,2,No
+174.109.75.151,31,36.0355072,-78.8391037,Yes,Duke University,Senior,21,Male,Mechanical Engineering,NA,No,Yes,Somewhat Liberal,No,NA,2,1,Yes
+152.3.43.28,31,35.9954071,-78.90190125,Yes,Duke University,Senior,22,Female,Statistical Science,NA,No,No,Very Liberal,No,NA,2,1,No
+152.3.43.2,32,35.9954071,-78.90190125,Yes,Duke University,Freshman,19,Male,History,NA,No,No,Very Liberal,Yes,Christianity,2,1,Yes
+152.3.43.28,34,35.9954071,-78.90190125,Yes,Duke University,Junior,20,Male,Computer Science,NA,No,No,Somewhat Liberal,No,NA,2,2,Yes
+152.3.43.23,35,35.9954071,-78.90190125,Yes,Duke University,Junior,21,Female,Biology,NA,No,No,"Somewhat Liberal,Very Liberal",No,NA,2,1,Yes
+152.3.43.2,37,35.9954071,-78.90190125,Yes,Duke University,Freshman,19,Female,Public Policy Studies,NA,No,Yes,Somewhat Liberal,No,NA,2,2,Yes
+152.3.43.20,38,35.9954071,-78.90190125,Yes,Duke University,Sophomore,19,Female,English,NA,No,No,Very Liberal,No,NA,2,2,Yes
+152.3.43.22,38,35.9954071,-78.90190125,Yes,Duke University,Junior,21,Female,Evolutionary Anthropology,NA,No,No,Very Liberal,Yes,Christianity,2,2,No
+152.3.43.28,38,35.9954071,-78.90190125,Yes,Duke University,Junior,21,Female,Biology,NA,No,Yes,Somewhat Liberal,No,NA,2,2,Yes
+152.3.43.23,40,35.9954071,-78.90190125,Yes,Duke University,Senior,22,Female,NA,NA,No,No,Somewhat Liberal,No,NA,2,2,No
+98.26.41.254,40,36.09240723,-78.90100098,Yes,Duke University,Senior,22,Female,Psychology ,NA,No,Yes,Somewhat Conservative,Yes,Christianity,2,2,Yes
+107.77.234.73,41,37.75100708,-97.8219986,Yes,Duke University,Sophomore,20,Female,Computer Science,NA,No,Yes,Very Liberal,No,NA,2,1,Yes
+152.3.43.21,42,35.9954071,-78.90190125,Yes,Duke University,Junior,20,Female,Environmental Science,NA,No,Yes,Very Liberal,No,NA,2,2,Yes
+152.3.43.2,42,35.9954071,-78.90190125,Yes,Duke University,Freshman,19,Female,Political Science,NA,No,No,Very Liberal,Yes,Christianity,2,2,No
+152.3.43.22,44,35.9954071,-78.90190125,Yes,Duke University,Sophomore,19,Female,Computer Science,NA,No,No,Very Liberal,No,NA,2,2,No
+152.3.43.2,45,35.9954071,-78.90190125,Yes,Duke University,Freshman,18,Female,Psychology,Computer Science,No,Yes,Somewhat Liberal,Yes,Hinduism,2,2,Yes
+107.77.237.194,48,37.75100708,-97.8219986,Yes,Duke University,Sophomore,20,Male,Computer Science,NA,No,No,Somewhat Liberal,No,NA,2,2,No
+152.3.43.22,49,35.9954071,-78.90190125,Yes,Duke University,Sophomore,20,Female,Computer Science,NA,No,No,Very Liberal,No,NA,2,1,No
+188.37.129.181,49,38.71670532,-9.133300781,Yes,Duke University,Junior,20,Male,Computer Science,NA,No,No,Somewhat Liberal,Yes,Christianity,2,1,Yes
+152.3.43.22,49,35.9954071,-78.90190125,Yes,Duke University,Sophomore,19,Male,Economics,NA,No,No,Somewhat Liberal,No,NA,2,2,No
+107.77.236.90,51,37.75100708,-97.8219986,Yes,Duke University,Sophomore,19,Female,Biology,NA,No,No,Somewhat Liberal,Yes,Christianity,2,1,Yes
+152.3.43.2,52,35.9954071,-78.90190125,Yes,Duke University,Freshman,18,Female,Mechanical Engineering,NA,No,No,Somewhat Conservative,No,NA,2,0,Yes
+152.3.43.2,52,35.9954071,-78.90190125,Yes,Duke University,Junior,21,Female,Chemistry,NA,No,No,Somewhat Liberal,No,NA,2,2,Yes
+107.77.249.9,53,33.94430542,-84.21240234,Yes,Duke University,Senior,22,Male,Engineering Management,NA,No,No,Very Liberal,No,NA,2,1,Yes
+174.194.8.211,55,35.25190735,-80.82109833,Yes,Duke University,Sophomore,20,Male,Biology,NA,No,No,Somewhat Liberal,Yes,Islam,2,2,No
+198.86.29.23,55,35.9954071,-78.90190125,Yes,Duke University,Junior,21,Male,Mechanical Engineering,NA,No,No,Somewhat Conservative,Yes,Christianity,2,1,Yes
+152.3.43.28,55,35.9954071,-78.90190125,Yes,Duke University,Junior,21,Female,Neuroscience,NA,No,No,Very Liberal,Yes,Christianity,2,2,Yes
+152.3.43.23,55,35.9954071,-78.90190125,Yes,Duke University,Sophomore,20,Female,Mechanical Engineering,NA,No,No,Very Liberal,Yes,Christianity,2,1,Yes
+107.77.233.174,56,32.29879761,-90.18479919,Yes,Duke University,Sophomore,19,Male,Economics,NA,No,No,Somewhat Liberal,No,NA,2,1,Yes
+152.3.43.2,62,35.9954071,-78.90190125,Yes,Duke University,Freshman,19,Male,Neuroscience,NA,No,No,Somewhat Liberal,No,NA,2,2,No
+98.26.40.31,63,36.03779602,-78.9858017,Yes,Duke University,Senior,22,Female,Biology,NA,No,Yes,Somewhat Liberal,No,NA,2,2,No
+174.193.128.120,65,35.32839966,-80.74590302,Yes,Duke University,Sophomore,19,Female,International Comparative Studies,Global Health,No,No,Very Liberal,No,NA,2,1,No
+152.3.43.28,69,35.9954071,-78.90190125,Yes,Duke University,Junior,21,Male,Statistical Science,NA,No,No,Somewhat Liberal,No,NA,2,1,No
+107.77.205.115,73,47.49440002,-122.1007004,Yes,Duke University,Sophomore,20,Male,Electrical & Computer Engineering,NA,No,No,Somewhat Liberal,No,NA,2,1,Yes
+152.3.43.20,78,35.9954071,-78.90190125,Yes,Duke University,Senior,21,Female,Program II,NA,No,No,Very Liberal,No,NA,2,2,Yes
+152.3.43.22,83,35.9954071,-78.90190125,Yes,Duke University,Sophomore,21,Female,Program II,NA,No,Yes,NA,No,NA,2,1,Yes
+137.120.107.184,83,50.85009766,5.688201904,Yes,Duke University,Junior,21,Female,Sociology,NA,No,Yes,Somewhat Liberal,Yes,Christianity,2,1,No
+198.86.29.23,87,35.9954071,-78.90190125,Yes,Duke University,Sophomore,20,Female,Public Policy Studies,NA,No,Yes,Somewhat Liberal,Yes,Christianity,2,2,Yes
+198.86.29.23,91,35.9954071,-78.90190125,Yes,Duke University,Sophomore,19,Female,Biology,NA,No,No,Somewhat Liberal,Yes,Christianity,2,2,Yes
+152.3.43.22,93,35.9954071,-78.90190125,Yes,Duke University,Sophomore,19,Female,Computer Science,NA,No,No,Very Conservative,Yes,Christianity,2,1,No
+152.3.43.21,132,35.9954071,-78.90190125,Yes,Duke University,Junior,20,Female,Cultural Anthropology,NA,No,No,Somewhat Liberal,No,NA,2,2,No
+76.182.33.7,499,35.88960266,-78.92440033,Yes,Duke University,Sophomore,19,Female,Computer Science,NA,No,No,Somewhat Liberal,No,NA,2,1,No
+152.3.43.2,525,35.9954071,-78.90190125,Yes,Duke University,Freshman,18,Male,Mathematics,Computer Science,Yes,No,Somewhat Conservative,No,NA,2,2,Yes
+152.3.43.188,26,35.9954071,-78.90190125,Yes,Duke University,Sophomore,19,Male,NA,NA,No,Yes,Somewhat Liberal,No,NA,1,1,No
+152.3.43.28,31,35.9954071,-78.90190125,Yes,Duke University,Sophomore,20,Female,Biology,NA,No,No,Somewhat Liberal,No,NA,1,1,Yes
+152.3.43.23,32,35.9954071,-78.90190125,Yes,Duke University,Junior,20,Female,Biology,NA,No,No,Very Liberal,No,NA,1,1,Yes
+152.3.43.21,34,35.9954071,-78.90190125,Yes,Duke University,Junior,20,Male,Economics,NA,No,No,Somewhat Liberal,No,NA,1,0,No
+152.3.43.18,34,35.9954071,-78.90190125,Yes,Duke University,Freshman,18,Female,Biomedical Engineering,Electrical & Computer Engineering,No,No,Somewhat Liberal,No,NA,1,0,No
+152.3.43.20,36,35.9954071,-78.90190125,Yes,Duke University,Sophomore,19,Female,Computer Science,NA,No,No,Somewhat Liberal,No,NA,1,1,Yes
+195.146.143.194,36,49.21670532,18.73330688,Yes,Duke University,Senior,21,Male,Economics,NA,No,No,Somewhat Conservative,Yes,Christianity,1,1,Yes
+152.3.43.21,36,35.9954071,-78.90190125,Yes,Duke University,Freshman,19,Male,Computer Science,NA,No,No,Somewhat Liberal,No,NA,1,0,No
+152.3.43.36,37,35.9954071,-78.90190125,Yes,Duke University,Sophomore,20,Male,Chemistry ,NA,No,No,Somewhat Liberal,Yes,Islam,1,0,Yes
+24.163.75.15,37,36.09240723,-78.90100098,Yes,Duke University,Senior,22,Female,Evolutionary Anthropology,NA,No,No,Very Liberal,Yes,Christianity,1,1,Yes
+198.86.29.23,37,35.9954071,-78.90190125,Yes,Duke University,Sophomore,20,Female,Psychology,NA,No,No,Very Liberal,No,NA,1,1,Yes
+107.77.234.135,37,33.92030334,-84.61799622,Yes,Duke University,Junior,21,Female,Biomedical Engineering,NA,No,No,Very Liberal,No,NA,1,1,Yes
+152.3.43.2,37,35.9954071,-78.90190125,Yes,Duke University,Freshman,18,Female,NA,NA,No,No,Somewhat Liberal,No,NA,1,1,Yes
+8.25.232.161,38,35.70930481,-80.45230103,Yes,Duke University,Freshman,19,Female,Global Health,NA,No,No,Neither,Yes,Christianity,1,0,No
+45.37.83.197,38,35.94659424,-78.79769897,Yes,Duke University,Sophomore,19,Male,Computer Science,NA,No,No,Somewhat Liberal,No,NA,1,1,Yes
+152.3.43.20,38,35.9954071,-78.90190125,Yes,Duke University,Junior,20,Female,NA,NA,No,No,Very Liberal,No,NA,1,1,Yes
+152.3.43.2,39,35.9954071,-78.90190125,Yes,Duke University,Freshman,19,Female,Economics ,NA,No,Yes,Somewhat Liberal,No,NA,1,1,Yes
+107.77.234.40,39,37.75100708,-97.8219986,Yes,Duke University,Sophomore,20,Female,Biomedical Engineering,NA,No,No,Very Liberal,No,NA,1,1,No
+152.3.43.230,41,35.9954071,-78.90190125,Yes,Duke University,Senior,22,Male,Mechanical Engineering,NA,No,No,Somewhat Liberal,Yes,Christianity,1,1,Yes
+152.3.43.28,41,35.9954071,-78.90190125,Yes,Duke University,Senior,22,Female,English,NA,No,Yes,Very Liberal,Yes,Christianity,1,1,Yes
+152.3.43.134,42,35.9954071,-78.90190125,Yes,Duke University,Senior,22,Male,Environmental Engineering,NA,No,No,Very Liberal,No,NA,1,0,No
+152.3.43.2,42,35.9954071,-78.90190125,Yes,Duke University,Freshman,19,Female,Linguistics,NA,No,No,Very Liberal,No,NA,1,0,No
+99.203.21.41,43,36.07260132,-79.79199982,Yes,Duke University,Sophomore,19,Female,Spanish,NA,No,Yes,Very Liberal,No,NA,1,1,Yes
+76.182.9.110,43,35.94659424,-78.79769897,Yes,Duke University,Senior,22,Male,Computer Science,NA,No,No,Somewhat Conservative,Yes,Christianity,1,1,No
+152.3.43.23,43,35.9954071,-78.90190125,Yes,Duke University,Sophomore,19,Male,Public Policy Studies,NA,No,No,"Neither,Somewhat Liberal",No,NA,1,0,No
+45.37.83.170,43,35.94659424,-78.79769897,Yes,Duke University,Sophomore,20,Male,Neuroscience,NA,No,No,Very Liberal,No,NA,1,1,No
+152.3.43.20,44,35.9954071,-78.90190125,Yes,Duke University,Senior,22,Other,Neuroscience,NA,No,No,Somewhat Liberal,Yes,Christianity,1,1,Yes
+152.3.43.22,45,35.9954071,-78.90190125,Yes,Duke University,Junior,21,Male,Mechanical Engineering,NA,Yes,No,Very Liberal,Yes,Christianity,1,1,No
+152.3.43.188,46,35.9954071,-78.90190125,Yes,Duke University,Sophomore,19,Female,Electrical & Computer Engineering,Computer Science,No,Yes,Neither,Yes,Christianity,1,0,Yes
+152.3.43.21,46,35.9954071,-78.90190125,Yes,Duke University,Junior,20,Female,Psychology,NA,No,No,Somewhat Liberal,Yes,Christianity,1,1,No
+152.3.43.28,47,35.9954071,-78.90190125,Yes,Duke University,Junior,19,Female,Electrical & Computer Engineering,Computer Science,No,Yes,Somewhat Liberal,No,NA,1,1,No
+107.77.233.51,48,33.74899292,-84.38800049,Yes,Duke University,Freshman,18,Female,Computer Science,NA,No,No,Somewhat Liberal,Yes,Judaism,1,1,No
+152.3.43.3,48,35.9954071,-78.90190125,Yes,Duke University,Freshman,19,Female,Chemistry,Neuroscience,No,No,Somewhat Conservative,Yes,Christianity,1,1,Yes
+174.193.163.237,49,35.74630737,-78.72389984,Yes,Duke University,Sophomore,20,Female,Cultural Anthropology,Global Health,No,No,"Somewhat Liberal,Very Liberal",No,NA,1,1,Yes
+152.3.43.22,49,35.9954071,-78.90190125,Yes,Duke University,Junior,19,Female,Computer Science,NA,No,No,"Somewhat Liberal,Very Liberal",No,NA,1,1,Yes
+152.3.43.188,49,35.9954071,-78.90190125,Yes,Duke University,Sophomore,19,Female,Computer Science,NA,No,Yes,Very Liberal,Yes,Judaism,1,0,No
+152.3.43.2,51,35.9954071,-78.90190125,Yes,Duke University,Freshman,19,Male,Electrical & Computer Engineering,NA,No,No,Somewhat Liberal,Yes,Christianity,1,0,No
+12.170.9.19,51,36.0355072,-78.8391037,Yes,Duke University,Freshman,18,Male,Undeclared,NA,No,Yes,Very Liberal,No,NA,1,2,No
+98.26.4.185,51,36.03779602,-78.9858017,Yes,Duke University,Senior,22,Female,Mechanical Engineering,NA,No,No,Very Liberal,No,NA,1,1,No
+152.3.43.2,51,35.9954071,-78.90190125,Yes,Duke University,Junior,21,Female,English,NA,No,Yes,Very Liberal,No,NA,1,1,Yes
+174.194.0.130,52,35.8480072,-78.70040131,Yes,Duke University,Senior,22,Female,NA,NA,No,No,Very Liberal,No,NA,1,1,Yes
+152.3.43.134,52,35.9954071,-78.90190125,Yes,Duke University,Senior,21,Male,Physics,NA,No,No,Somewhat Liberal,No,NA,1,1,Yes
+107.77.233.160,53,32.29879761,-90.18479919,Yes,Duke University,Sophomore,19,Female,Biomedical Engineering,NA,No,Yes,Somewhat Liberal,No,NA,1,0,No
+75.40.152.104,54,35.88960266,-78.92440033,Yes,Duke University,Senior,22,Male,Biomedical Engineering,NA,No,No,Somewhat Liberal,Yes,Christianity,1,1,Yes
+152.3.43.22,55,35.9954071,-78.90190125,Yes,Duke University,Junior,20,Female,Mechanical Engineering,NA,No,No,Somewhat Conservative,No,NA,1,1,No
+152.3.43.188,56,35.9954071,-78.90190125,Yes,Duke University,Junior,21,Female,Electrical & Computer Engineering,NA,No,Yes,Very Liberal,No,NA,1,1,Yes
+152.3.43.21,57,35.9954071,-78.90190125,Yes,Duke University,Junior,20,Female,Neuroscience ,NA,No,No,"Somewhat Liberal,Very Liberal",No,NA,1,1,No
+152.3.43.23,58,35.9954071,-78.90190125,Yes,Duke University,Junior,20,Female,Biology,NA,No,No,Somewhat Liberal,No,NA,1,1,Yes
+152.3.43.3,60,35.9954071,-78.90190125,Yes,Duke University,Freshman,18,Female,History,NA,No,No,Very Liberal,Yes,Christianity,1,1,No
+152.3.43.36,61,35.9954071,-78.90190125,Yes,Duke University,Sophomore,20,Female,NA,NA,No,Yes,Neither,No,NA,1,1,Yes
+107.77.235.79,62,37.75100708,-97.8219986,Yes,Duke University,Junior,21,Female,Biology,NA,No,No,Very Liberal,No,NA,1,0,No
+152.3.43.2,73,35.9954071,-78.90190125,Yes,Duke University,Freshman,21,Male,Public Policy Studies,NA,No,No,Neither,Yes,Islam,1,1,Yes
+152.3.34.67,79,35.9954071,-78.90190125,Yes,Duke University,Senior,21,Female,Psychology,NA,No,No,Somewhat Liberal,Yes,Christianity,1,1,No
+152.3.43.2,91,35.9954071,-78.90190125,Yes,Duke University,Freshman,19,Female,NA,NA,No,No,Very Liberal,Yes,NA,1,0,NA
+174.193.147.221,94,35.29359436,-80.73500061,Yes,Duke University,Junior,21,Male,Economics,Global Health,Yes,No,Very Liberal,Yes,Christianity,1,1,Yes
+152.3.43.2,95,35.9954071,-78.90190125,Yes,Duke University,Freshman,19,Female,Public Policy Studies,NA,Yes,No,Somewhat Liberal,No,NA,1,0,No
+152.3.43.22,113,35.9954071,-78.90190125,Yes,Duke University,Junior,21,NA,Electrical & Computer Engineering,Computer Science,No,No,Somewhat Liberal,No,NA,1,1,Yes
+152.3.43.22,115,35.9954071,-78.90190125,Yes,Duke University,Sophomore,19,Male,Economics,Computer Science,No,No,Very Liberal,No,NA,1,0,No
+152.3.43.28,133,35.9954071,-78.90190125,Yes,Duke University,Junior,22,Male,Neuroscience ,NA,No,No,Neither,Yes,Christianity,1,1,Yes
+152.3.43.20,168,35.9954071,-78.90190125,Yes,Duke University,Sophomore,20,Male,Psychology,NA,No,Yes,Somewhat Conservative,No,NA,1,0,Yes
+152.3.43.22,170,35.9954071,-78.90190125,Yes,Duke University,Freshman,19,Female,English,NA,No,No,Very Liberal,No,NA,1,1,Yes
+152.3.43.20,172,35.9954071,-78.90190125,Yes,Duke University,Sophomore,20,Female,Biology,NA,No,Yes,Somewhat Liberal,No,NA,1,1,Yes
+152.3.43.188,221,35.9954071,-78.90190125,Yes,Duke University,Junior,20,Male,Computer Science,Economics,No,No,Neither,Yes,Christianity,1,1,No
+152.3.43.24,232,35.9954071,-78.90190125,Yes,Duke University,Junior,20,Female,Neuroscience ,NA,Yes,No,Very Liberal,No,NA,1,1,Yes
+174.109.93.6,846,36.0355072,-78.8391037,Yes,Duke University,Senior,22,Female,Electrical & Computer Engineering,Computer Science,No,No,Very Liberal,No,NA,1,1,Yes
+152.3.43.3,16527,35.9954071,-78.90190125,Yes,Duke University,Junior,21,Female,Political Science,NA,No,Yes,Somewhat Liberal,No,NA,1,1,Yes
+152.3.43.2,26656,35.9954071,-78.90190125,Yes,Duke University,Freshman,19,Male,NA,NA,No,No,Very Liberal,No,NA,1,1,Yes
+152.3.43.2,28,35.9954071,-78.90190125,Yes,Duke University,Freshman,18,Female,Statistical Science,NA,No,No,Somewhat Liberal,No,NA,0,0,No
+152.3.43.6,29,35.9954071,-78.90190125,Yes,Duke University,Freshman,NA,Male,Computer Science,NA,No,No,"Neither,Somewhat Liberal",No,NA,0,0,No
+152.3.43.28,30,35.9954071,-78.90190125,Yes,Duke University,Senior,22,Female,NA,NA,No,No,Very Liberal,Yes,Islam,0,0,No
+152.3.43.2,33,35.9954071,-78.90190125,Yes,Duke University,Freshman,18,Male,Computer Science,NA,No,No,Somewhat Liberal,No,NA,0,0,No
+99.203.17.246,34,39.34300232,-76.68579865,Yes,Duke University,Sophomore,20,Female,History,NA,No,No,Very Liberal,No,NA,0,0,No
+152.3.43.22,34,35.9954071,-78.90190125,Yes,Duke University,Sophomore,20,Male,Computer Science,NA,No,No,Somewhat Liberal,Yes,Christianity,0,0,No
+152.3.43.21,34,35.9954071,-78.90190125,Yes,Duke University,Freshman,18,Female,Biology,Evolutionary Anthropology,No,No,Very Liberal,No,NA,0,0,No
+152.3.43.6,35,35.9954071,-78.90190125,Yes,Duke University,Freshman,18,Male,Biology,NA,No,No,Somewhat Liberal,Yes,Judaism,0,0,No
+152.3.43.21,35,35.9954071,-78.90190125,Yes,Duke University,Freshman,19,Female,Statistical Science,NA,No,No,Somewhat Liberal,No,NA,0,0,No
+152.3.43.21,36,35.9954071,-78.90190125,Yes,Duke University,Freshman,19,Female,Economics,NA,No,No,Very Liberal,No,NA,0,0,Yes
+152.3.43.6,37,35.9954071,-78.90190125,Yes,Duke University,Freshman,18,Female,Biology,NA,No,No,Very Liberal,No,NA,0,0,No
+152.3.43.2,37,35.9954071,-78.90190125,Yes,Duke University,Freshman,18,Female,Neuroscience ,NA,No,Yes,Very Liberal,No,NA,0,0,No
+152.3.43.23,37,35.9954071,-78.90190125,Yes,Duke University,Sophomore,20,Female,Biology,NA,No,No,Very Liberal,Yes,Christianity,0,0,No
+152.3.34.69,37,35.9954071,-78.90190125,Yes,Duke University,Sophomore,20,Female,Public Policy Studies,NA,No,Yes,Very Liberal,No,NA,0,0,No
+152.3.43.2,38,35.9954071,-78.90190125,Yes,Duke University,Sophomore,19,Female,Public Policy Studies,NA,No,No,Very Liberal,No,NA,0,0,No
+152.3.43.23,38,35.9954071,-78.90190125,Yes,Duke University,Sophomore,19,Male,Global Health,NA,No,No,Very Liberal,No,NA,0,0,No
+198.86.29.23,39,35.9954071,-78.90190125,Yes,Duke University,Sophomore,19,Female,Biology,Global Health,No,No,Very Liberal,No,NA,0,0,No
+152.3.43.20,39,35.9954071,-78.90190125,Yes,Duke University,Freshman,19,Male,Electrical & Computer Engineering,Computer Science,No,Yes,Somewhat Liberal,Yes,Christianity,0,0,No
+198.86.29.23,39,35.9954071,-78.90190125,Yes,Duke University,Freshman,18,Female,Psychology,NA,No,Yes,Very Liberal,No,NA,0,0,No
+174.99.67.155,39,35.88960266,-78.92440033,Yes,Duke University,Senior,21,Female,Engineering,NA,Yes,No,Somewhat Liberal,No,NA,0,0,No
+152.3.34.67,41,35.9954071,-78.90190125,Yes,Duke University,Sophomore,19,Female,NA,NA,No,No,Very Liberal,No,NA,0,0,No
+152.3.43.2,41,35.9954071,-78.90190125,Yes,Duke University,Freshman,19,Female,Neuroscience ,NA,No,Yes,Very Liberal,No,NA,0,0,No
+174.109.123.194,42,36.03779602,-78.9858017,Yes,Duke University,Senior,21,Female,Sociology,NA,No,Yes,Very Liberal,No,NA,0,0,No
+152.3.43.2,42,35.9954071,-78.90190125,Yes,Duke University,Freshman,18,Male,NA,NA,No,No,Very Liberal,No,NA,0,0,No
+152.3.43.2,45,35.9954071,-78.90190125,Yes,Duke University,Sophomore,19,Female,Biomedical Engineering,NA,No,No,Very Liberal,Yes,Christianity,0,0,Yes
+152.3.43.22,49,35.9954071,-78.90190125,Yes,Duke University,Freshman,18,Male,Statistical Science,NA,No,No,Neither,No,NA,0,0,No
+152.3.43.24,52,35.9954071,-78.90190125,Yes,Duke University,Sophomore,19,Female,Chemistry,Biology,No,No,Somewhat Liberal,Yes,Christianity,0,0,No
+152.3.43.2,53,35.9954071,-78.90190125,Yes,Duke University,Freshman,17,Female,History ,NA,No,No,Very Liberal,Yes,Christianity,0,0,No
+152.3.43.36,54,35.9954071,-78.90190125,Yes,Duke University,Sophomore,19,Female,Public Policy Studies,NA,No,Yes,Somewhat Liberal,No,NA,0,0,No
+152.3.34.67,54,35.9954071,-78.90190125,Yes,Duke University,Sophomore,20,Female,History ,NA,No,No,Very Liberal,No,NA,0,0,No
+152.3.43.28,56,35.9954071,-78.90190125,Yes,Duke University,Senior,22,Female,Biomedical Engineering,NA,No,No,Somewhat Conservative,No,NA,0,0,Yes
+152.3.43.2,57,35.9954071,-78.90190125,Yes,Duke University,Freshman,19,Female,Biology,Computer Science,No,No,Very Liberal,No,NA,0,0,No
+152.3.43.23,59,35.9954071,-78.90190125,Yes,Duke University,Freshman,18,Female,Global Health,NA,No,Yes,Very Liberal,No,NA,0,0,No
+152.3.43.2,59,35.9954071,-78.90190125,Yes,Duke University,Freshman,18,Female,Linguistics,Psychology,No,No,Somewhat Conservative,Yes,Christianity,0,0,No
+198.86.29.23,60,35.9954071,-78.90190125,Yes,Duke University,Senior,21,Female,Biology,NA,No,No,Somewhat Liberal,Yes,Hinduism,0,0,No
+152.3.43.20,60,35.9954071,-78.90190125,Yes,Duke University,Sophomore,23,Other,Environmental Science,NA,No,No,Somewhat Liberal,No,NA,0,0,No
+45.37.97.90,60,35.94999695,-78.96160126,Yes,Duke University,NA,22,Female,Law School,NA,No,No,Very Liberal,No,NA,0,0,No
+107.77.234.101,60,37.75100708,-97.8219986,Yes,Duke University,Junior,20,Female,Computer Science,NA,No,Yes,Somewhat Liberal,No,NA,0,0,No
+152.3.43.20,61,35.9954071,-78.90190125,Yes,Duke University,Sophomore,19,Male,Electrical & Computer Engineering,NA,No,No,Somewhat Liberal,Yes,Christianity,0,0,No
+152.3.43.21,66,35.9954071,-78.90190125,Yes,Duke University,Sophomore,19,Female,Neuroscience,NA,No,No,Somewhat Liberal,Yes,Hinduism,0,0,Yes
+152.3.43.188,67,35.9954071,-78.90190125,Yes,Duke University,Junior,21,Female,Electrical & Computer Engineering,NA,No,No,"Neither,Somewhat Liberal",Yes,Christianity,0,0,Yes
+107.77.235.174,75,37.75100708,-97.8219986,Yes,Duke University,Sophomore,19,Female,Psychology,English,No,No,Neither,Yes,Christianity and Buddhism,0,0,No
+152.3.43.23,76,35.9954071,-78.90190125,Yes,Duke University,Senior,23,Female,NA,NA,No,No,Very Liberal,NA,NA,0,0,No
+152.3.43.23,77,35.9954071,-78.90190125,Yes,Duke University,Sophomore,20,Female,NA,NA,No,No,Neither,No,NA,0,0,Yes
+152.3.43.28,78,35.9954071,-78.90190125,Yes,Duke University,Senior,22,Female,International Comparative Studies,NA,No,No,Very Liberal,Yes,Islam,0,0,No
+107.15.250.83,80,35.9954071,-78.90190125,Yes,Duke University,Senior,22,Male,Computer Science,NA,No,No,Somewhat Liberal,No,NA,0,0,No
+152.3.43.20,80,35.9954071,-78.90190125,Yes,Duke University,Freshman,19,Male,Mechanical Engineering,NA,No,No,Somewhat Conservative,Yes,Christianity,0,0,Yes
+152.3.43.22,89,35.9954071,-78.90190125,Yes,Duke University,Freshman,19,Female,Computer Science,NA,No,No,Somewhat Conservative,Yes,Christianity,0,NA,No
+198.86.29.23,98,35.9954071,-78.90190125,Yes,Duke University,Sophomore,19,Male,Biology,NA,No,No,Very Conservative,Yes,Christianity,0,0,No
+152.3.43.36,116,35.9954071,-78.90190125,Yes,Duke University,Sophomore,19,Female,International Comparative Studies,NA,No,No,Somewhat Liberal,Yes,Christianity,0,0,No
+174.109.78.208,127,36.03779602,-78.9858017,Yes,Duke University,Senior,22,Female,Evolutionary Anthropology,NA,No,Yes,Somewhat Conservative,No,NA,0,0,No
+107.77.236.95,160,37.75100708,-97.8219986,Yes,Duke University,Freshman,19,Male,Computer Science,NA,No,Yes,Very Conservative,Yes,Christianity,0,0,No
+152.3.43.2,195,35.9954071,-78.90190125,Yes,Duke University,Sophomore,19,Male,Biomedical Engineering,NA,No,No,Somewhat Liberal,No,NA,0,0,No
+152.3.43.20,223,35.9954071,-78.90190125,Yes,Duke University,Sophomore,19,Male,Economics,NA,No,No,Neither,No,NA,0,0,No
+198.86.29.23,349,35.9954071,-78.90190125,Yes,Duke University,Sophomore,20,Female,Psychology,NA,No,No,Somewhat Liberal,Yes,Christianity,0,0,No
+152.3.34.79,382,35.9954071,-78.90190125,Yes,Duke University,Sophomore,19,Female,Public Policy Studies,NA,No,No,Neither,Yes,Christianity,0,0,Yes
+152.3.43.134,432,35.9954071,-78.90190125,Yes,Duke University,Senior,21,Female,Biomedical Engineering,NA,No,No,Neither,No,NA,0,0,No
+152.3.43.2,970,35.9954071,-78.90190125,Yes,Duke University,Freshman,18,Male,Economics,NA,No,No,Somewhat Liberal,No,NA,0,0,No
+152.3.43.20,13819,35.9954071,-78.90190125,Yes,Duke University,Freshman,18,Female,Computer Science,NA,No,No,Very Liberal,No,NA,0,0,No
+198.86.29.23,28,35.9954071,-78.90190125,Yes,Duke University,Freshman,18,Male,Mathematics,NA,No,No,Somewhat Liberal,No,NA,NA,NA,NA
+152.3.43.21,31,35.9954071,-78.90190125,Yes,Duke University,Sophomore,19,Male,Economics,NA,No,No,Somewhat Conservative,No,NA,NA,NA,NA
+152.3.43.20,31,35.9954071,-78.90190125,Yes,Duke University,Freshman,NA,Female,NA,NA,No,No,Somewhat Liberal,Yes,Hinduism,NA,NA,No
+152.3.43.22,38,35.9954071,-78.90190125,Yes,Duke University,Sophomore,19,Female,Religious Studies,NA,No,No,Somewhat Liberal,Yes,Christianity,0,0,No
+152.3.43.2,50,35.9954071,-78.90190125,Yes,Duke University,Freshman,19,Male,Public Policy Studies,NA,No,No,Somewhat Liberal,No,NA,NA,NA,NA
+152.3.43.20,60,35.9954071,-78.90190125,Yes,Duke University,Sophomore,19,Male,Economics,NA,No,No,"Neither,Somewhat Liberal",No,NA,NA,NA,NA
+152.3.43.28,64,35.9954071,-78.90190125,Yes,Duke University,Sophomore,20,Female,Electrical & Computer Engineering,NA,No,No,Somewhat Liberal,Yes,Christianity,NA,NA,NA
+152.3.43.22,91,35.9954071,-78.90190125,Yes,Duke University,Sophomore,19,Male,Computer Science,NA,No,No,Somewhat Liberal,Yes,Hinduism,NA,NA,NA
+152.3.43.28,122,35.9954071,-78.90190125,Yes,Duke University,Senior,22,Male,Spanish,NA,No,No,Somewhat Conservative,Yes,Christianity,NA,NA,No
+45.37.91.114,1686,35.88960266,-78.92440033,Yes,Duke University,Senior,23,Female,International Comparative Studies,NA,No,No,Neither,No,NA,NA,NA,Yes
+208.76.203.214,48,38.40310669,-78.8914032,Yes,James Madison University,Sophomore,19,Female,Communication Studies,NA,Yes,Yes,Somewhat Conservative,Yes,Christianity,3,2,No
+107.77.234.126,131,37.75100708,-97.8219986,Yes,Santa Clara University,Sophomore,19,Male,Biochemistry ,NA,No,Yes,Somewhat Liberal,No,NA,0,0,No
+73.70.190.44,209,37.30419922,-122.0946045,Yes,University of California Davis,Freshman,19,Female,Biomedical Engineering,NA,No,No,Very Liberal,Yes,Christianity,0,0,Yes
+137.99.240.248,45,41.80799866,-72.25099945,Yes,University of Connecticut,Sophomore,19,Male,Marketing,NA,Yes,No,Somewhat Liberal,Yes,Christianity,13,9,No
+73.97.174.23,54,47.66059875,-122.2919006,Yes,University of Washington,Sophomore,19,Female,Biology,NA,No,No,Somewhat Liberal,No,NA,6,5,Yes
+40.139.112.162,47,37.3421936,-121.8833008,No,NA,NA,24,Male,Electrical & Computer Engineering,NA,No,No,Somewhat Conservative,No,NA,26,25,No
+174.196.137.70,78,35.85040283,-83.41249847,No,NA,NA,22,Female,Biology,NA,No,Yes,Somewhat Liberal,Yes,Christianity,26,26,Yes
+152.3.43.23,58,35.9954071,-78.90190125,No,NA,NA,25,Male,Statistical Science,NA,No,No,Very Liberal,No,NA,25,24,No
+108.219.236.177,55,42.46659851,-83.17819977,No,NA,NA,23,Female,Economics,NA,No,Yes,Somewhat Conservative,No,NA,20,20,No
+172.58.152.105,54,37.75100708,-97.8219986,No,NA,NA,22,Female,Biomedical Engineering,NA,No,No,Somewhat Liberal,No,NA,10,5,Yes
+107.77.235.7,88,37.75100708,-97.8219986,No,NA,NA,25,Female,Biology,NA,No,No,Very Liberal,No,NA,10,0,No
+45.36.37.40,96,36.23660278,-80.2983017,No,NA,NA,29,Female,NA,NA,No,No,Somewhat Liberal,Yes,Christianity,10,8,Yes
+152.16.191.132,45,35.94659424,-78.79769897,No,NA,NA,23,Female,NA,NA,No,NA,Somewhat Liberal,No,NA,8,8,Yes
+108.185.153.9,39,34.04379272,-118.2512054,No,NA,NA,24,Male,Biomedical Engineering,Computer Science,No,Yes,Somewhat Liberal,No,NA,6,0,Yes
+71.69.160.240,40,35.74630737,-78.72389984,No,NA,NA,24,Female,Statistical Science,NA,Yes,No,Somewhat Liberal,No,NA,5,5,No
+186.153.55.15,60,-34.603302,-58.38159943,No,NA,NA,25,Female,Psychology,NA,No,No,Somewhat Liberal,No,NA,5,1,Yes
+24.254.189.40,159,37.21409607,-80.0625,No,NA,NA,26,Female,NA,NA,No,No,Very Liberal,Yes,Hinduism,5,5,No
+174.194.26.52,110,35.227005,-79.96209717,No,NA,NA,23,Female,English,NA,No,No,Somewhat Liberal,Yes,Christianity,4,4,No
+107.77.209.158,47,37.75100708,-97.8219986,No,NA,NA,23,Female,Biology,NA,No,No,Very Liberal,No,NA,3,2,Yes
+73.54.253.227,51,33.83790588,-84.38459778,No,NA,NA,23,Female,Economics,NA,No,No,Somewhat Liberal,Yes,Islam,2,2,No
+73.109.61.15,56,47.71569824,-122.3009949,No,NA,NA,22,Female,Economics,Computer Science,No,No,Somewhat Liberal,Yes,Christianity,2,2,Yes
+107.15.29.93,87,36.07550049,-79.07409668,No,NA,NA,23,Female,Psychology,NA,No,No,Somewhat Liberal,Yes,Christianity,2,2,Yes
+152.3.43.3,40,35.9954071,-78.90190125,Yes,NA,Freshman,18,Female,Biology,NA,No,No,Somewhat Liberal,No,NA,1,1,No
+107.77.202.174,47,38.86000061,-77.05329895,No,NA,NA,22,Female,Biomedical Engineering,NA,No,No,Somewhat Liberal,No,NA,1,1,Yes
+107.15.134.92,59,35.84950256,-79.03410339,No,NA,NA,22,Male,Evolutionary Anthropology,NA,No,Yes,Somewhat Conservative,No,NA,1,1,Yes
+174.193.158.3,60,35.10629272,-80.71199799,No,NA,NA,23,Female,Biology,NA,No,No,Somewhat Liberal,Yes,Christianity,1,1,Yes
+72.66.26.22,86,38.89930725,-77.19159698,No,NA,NA,22,Male,Computer Science,NA,No,No,Very Liberal,No,NA,1,1,Yes
+107.77.233.198,40,32.29879761,-90.18479919,No,NA,NA,26,Female,Mathematics,NA,No,No,Very Liberal,No,NA,0,0,No
+68.53.94.9,42,36.13330078,-86.80370331,No,NA,NA,25,Female,Biology,NA,Yes,Yes,Neither,Yes,Christianity,0,0,No
+76.31.1.30,36,29.30659485,-94.77230072,No,NA,NA,25,Female,NA,NA,No,No,Somewhat Liberal,No,NA,NA,NA,NA

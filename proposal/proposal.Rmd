@@ -1,0 +1,126 @@
+---
+title: "Student Sex Lives"
+author: "Team POWER"
+date: "3/28/18"
+output: github_document
+---
+
+```{r load-data, echo=FALSE, message=FALSE, warning=FALSE}
+
+library(tidyverse)
+library(broom)
+library(infer)
+
+data <- read_csv("../data/SexSurvey.csv")
+data <- data %>%
+  filter(row_number() != 1)
+
+```
+
+
+## Section 1. Introduction
+
+For our final project, we wanted to analyze the number of sexual partners college students, primarily those at Duke, have had and whether or not that number correlates to a range of demographic factors, such as religion, year in school, or political views. We collected our own data for this project using a Qualtrics survey. This survey was relatively short and had 14 questions, and the results of these questions are stored in the variables below:
+
+  1. *student*: Are you a college student?
+  2. *college*: Which college do you go to?
+  3. *year*: Which year in college are you?
+  4. *age*: What is your age?
+  5. *gender*: What is your gender?
+  6. *major*: What is your major?
+  7. *athlete*: Are you a student athlete?
+  8. *greek*: Are you involved in a fraternity or sorority?
+  9. *politics*: How would you describe your political views? (There were 5 options for this question: Very Conservative, Somewhat Conservative, Neither, Somewhat Liberal, and Very Liberal)
+  10. *religious*: Would you consider yourself to be religious?
+  11. *religion*: If so, which religion do you practice?
+  12. *partners*: In your life, how many sexual partners have you had?
+  13. *partners_college*: Since coming to college, how many sexual partners have you had?
+  14. *relationship*: Are you currently in a committed romantic relationship that has lasted longer than 1 month?
+
+To get answers to our survey, we asked our friends to fill it out and also posted the survey in the All Duke Facebook group and the class Slack channel. We received 394 responses to our survey in less than 2 days. Because our survey was voluntary and taken primarily by Duke students and people we know, we are aware that our data may be skewed and not necessarily completely representative. In other words, our data is definitely subject to voluntary response bias. We are also aware that, by the nature of the questions asked in our survey, we may have gotten some bogus responses (which we plan to identify and remove from our complete analysis). However, we hope to still be able to find some interesting trends within our data, and to find a relationship(s) between the number of sexual partners for college students and another one of our variables. 
+
+## Section 2. Data analysis plan
+
+#### Variables
+
+Dependent Variables:
+
+*partners*, *partners_college*
+
+An example visualization including these variables is below.
+
+```{r partners-visualization, echo=FALSE}
+data_clean <- data %>%
+  filter(!is.na(partners) & partners != "1.00E-04") %>%
+  mutate(partners = as.numeric(partners))
+
+data_clean %>%
+  filter(partners < 100) %>%
+  ggplot(aes(x = partners)) +
+  geom_histogram(binwidth = 5) + 
+  labs(title = "Total Sexual Partners", subtitle = "Sampled college students, 2018")
+
+data_clean %>%
+  filter(partners < 100) %>%
+  summarize(mean_partners = mean(partners),
+            median_partners = median(partners),
+            min_partners = min(partners),
+            max_partners = max(partners))
+```
+
+After removing non-numeric answers and filtering for data within a reasonable range, the data seem to be heavily skewed right. There are some outliers, the largest being 69 (it's safe to say this answer can be thrown out along with other joke responses such as "6969", "420", etc.). But in general, the partner data seem to be within our expectations.
+
+Independent Variables: 
+
+*student*, *college*, *year*, *age*, *gender*, *major*, *athlete*, *greek*, *politics*, *religious*, *religion*, *relationship*
+
+An example visualization incorporating these variables is below.
+
+```{r independent-vizualisation, echo=FALSE}
+data_clean %>%
+  filter(!is.na(greek) & !is.na(gender) & partners <= 68) %>% #removing NAs and bogus outliers
+  group_by(greek, gender) %>%
+  summarize(median = median(partners))
+
+data_clean %>% 
+  filter(!is.na(major) & college == "Duke University" & partners <= 68) %>%
+  mutate(school =
+  case_when(
+    major %in% c("BME", "ECE", "ME", 
+                 "Biomedical Engineering", "ECE/CS", "Environmental Engineering", 
+                 "Engineering", "Mechanical Engineering", 
+                 "BME ece", "Biomedical engineering", "CEE", "Engineering Management", 
+                 "ECE, CS", "Electrical and Computer Engineering", 
+                 "Civil Engineering", "BME/ECE", "biomedical engineering", 
+                 "Mechanical engineering", "ECE/BME", "Biomedical Engineer", "Ece/cs") ~ "Pratt",
+    TRUE ~ "Trinity")
+  ) %>% 
+  ggplot(aes(x = school, y = partners)) +
+  geom_boxplot() +
+  labs(title = "Sexual Partners by School", subtitle = "Duke University, 2018")
+```
+
+#### Comparison Groups
+
+Some examples of groups we might use for comparisons could be different major categories, or even subsets of those such as those of certain genders in different major categories. However, we plan on performing these comparisons between as many of these different groups as possible, so we don't have any specific comparison groups in mind.
+
+#### Statistical Methods
+
+Some methods that we believe will be useful are the following.
+
+- Bootstrapping: Using bootstrapping, we'll be able to create confidence intervals for the population mean number of sexual partners for a variety of different groups based on the independent variables.
+- Hypothesis Tests: These will allow us to test questions such as "Is there a statistically significant difference between the median number of sexual partners in biomedical engineers vs. computer scientists?" or any number of questions comparing the response variables among dependent variable groupings.
+- Linear modeling: By creating a linear model, we can see which collection of these variables creates the best prediction of number of sexual partners. 
+
+#### Desired Results
+
+At this point, we're simply addressing the question of whether there exists a relationship between some of these variables (any number of them) and the number of sexual partners a student has had in their life. To support the existence of such a relationship, we would expect to see a linear model examining this relationship to have a high R^2 value, a hypothesis test to report a statistically significant p-value, or a set of confidence intervals to show meaningful differences. 
+
+## Section 3. Data
+
+```{r glimpse-data}
+
+glimpse(data)
+
+```
+

@@ -1,0 +1,84 @@
+---
+title: "Let's Talk About Sex"
+author: "Team POWER: Max Bartlett, Jenny Chin, Liam Pulsifer"
+date: May 5, 2018
+output:
+  beamer_presentation:
+    theme: "PaloAlto"
+    fonttheme: "structurebold"
+---
+
+
+# Overview
+
+## Our data
+
+- 14 questions, short Qualtrics survey
+- Surveyed ~400 people
+- Cleaned data
+- Our motivating question
+
+# Shiny App
+
+# Findings
+
+----
+
+## Findings - Summary Statistics
+
+![Summary Statistics of Sexual Partners (total and in college)](images/summary-stats)
+
+----
+
+##Findings - Abstinence
+
+![Sexual Activity Groupings](images/abstinence)
+
+----
+
+##Findings - Religion and Abstinence
+
+![Sexual Activity Groupings](images/religion-and-abstinence)
+
+----
+
+## Findings - Major
+
+![Sexual Activity By Major](images/by-major-plots-1)
+
+----
+
+## Findings -- Trinity vs. Pratt Summary Statistics
+
+![Sexual Activity By Major](images/trinity-and-pratt)
+
+----
+
+## Findings - Trinity vs. Pratt Differences in Means
+
+![p-value = 0.132](images/pratt-trinity-diff-in-means-1)
+
+----
+
+## Findings - Greek Life
+
+![Sexual Activity by Involvement in Greek Life](images/by-year-1)
+
+----
+
+## Findings - Greek Life Difference in Means
+
+![p-value = 0](images/greek-hypothesis-test-1)
+
+----
+
+## Findings - Forward Selection Linear Model
+
+![Adj. $R^2 = 0.2147764$](images/forward-selection-model)
+
+# Conclusion
+## Critiques
+
+- Voluntary response bias
+- Definition of sexual partner
+- Privacy

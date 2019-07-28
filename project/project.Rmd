@@ -1,0 +1,343 @@
+---
+title: "Let's Talk About Sex"
+author: "Max Bartlett, Jennifer Chin, and Liam Pulsifer"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+require(knitr)
+opts_chunk$set(echo = FALSE)
+```
+
+```{r load-packages, echo = FALSE, include = FALSE}
+library(tidyverse)
+library(infer)
+library(broom)
+```
+
+```{r read-data, echo = FALSE, include = FALSE}
+setwd("/cloud/project")
+sex_survey <- read_csv("data/SexSurvey_tidy.csv")
+```
+
+```{r setseed}
+
+set.seed(12345678)
+
+```
+
+
+##Introduction
+###Description of Data
+
+For our final project, we wanted to analyze the number of sexual partners that college students, primarily those at Duke, have had and whether or not that number correlates to a range of demographic factors, such as religion, year in school, or political views. We collected our own data for this project using a Qualtrics survey. This survey was relatively short and had 14 questions. The results of these questions are stored in the variables below:
+
+  1. `student`: Are you a college student?
+  2. `college`: Which college do you go to?
+  3. `year`: Which year in college are you?
+  4. `age`: What is your age?
+  5. `gender`: What is your gender?
+  6. `major*`: What is your major?
+  7. `athlete`: Are you a student athlete?
+  8. `greek`: Are you involved in a fraternity or sorority?
+  9. `politics`: How would you describe your political views? (There were 5 response options for this question: Very Conservative, Somewhat Conservative, Neither, Somewhat Liberal, and Very Liberal)
+  10. `religious`: Would you consider yourself to be religious?
+  11. `religion`: If so, which religion do you practice?
+  12. `partners`: In your life, how many sexual partners have you had?
+  13. `partners_college`: Since coming to college, how many sexual partners have you had?
+  14. `relationship`: Are you currently in a committed romantic relationship that has lasted longer than 1 month?
+  
+`*` split into two variables for analysis 
+
+To get answers to our survey, we posted the survey in the All Duke Facebook group and the class Slack channel. We received 394 submissions in less than 2 days. After poring over the responses, we removed ones with no answers filled in and ones that were evidently bogus, and were left with `r nrow(sex_survey)` observations. Additionally, we split the `major` column into `major_one` and `major_two` to account for people who listed two majors. 
+
+##Research Question
+
+Our research question is "Which demographic factors are most strongly associated with number of sexual partners in college students?" To answer this question using the data we collected (described above), we first needed to clean the data and remove some unnecessary variables and observations.
+
+```{r clean-data}
+
+sex_survey <- sex_survey %>%
+  filter(student == "Yes" & college == "Duke University") %>%
+  select(-ip_address, -duration, -location_latitude, -location_longitude, -student, -college)%>%
+  mutate(majcount = if_else(!is.na(major_one) & !is.na(major_two), 2, 1))
+
+```
+
+We chose to filter the data for students at Duke because we didn't get enough responses from non-Duke students (fewer than 10) to do any meaningful analysis. We also chose to remove some variables, such as ip_address from which the survey was taken, which we deemed extraneous to our research question.
+
+###Summary Statistics
+The following tibble lists the summary statistics for the total number of partners and the number of partners since coming to college from the responses in our dataset.
+
+```{r summary-stats}
+
+sex_survey %>%
+  filter(!is.na(partners)) %>%
+  summarize(max = max(partners),
+            min = min(partners),
+            mean = mean(partners),
+            median = median(partners),
+            sd = sd(partners),
+            q1 = quantile(partners, .25),
+            q3 = quantile(partners, .75),
+            num = n()
+            ) %>%
+  show()
+sex_survey %>%
+  filter(!is.na(partners_college)) %>%
+  summarize(max = max(partners_college),
+            min = min(partners_college),
+            mean = mean(partners_college),
+            median = median(partners_college),
+            sd = sd(partners_college),
+            q1 = quantile(partners_college, .25),
+            q3 = quantile(partners_college, .75),
+            num = n()
+            ) %>%
+  show()
+```
+
+The mean number of total partners is greater than the mean number of partners since coming to college, yet the median number of partners stays the same, at two. This is an interesting observation, as we expected the median to increase as well. This may indicate that those who are already having sex continue to have new partners in college, and those who didn't have sex in high school are continuing to abstain from sex.
+
+####Sexual Activity Groupings
+
+To investigate this, we split students into four groups based on whether or not they were sexually active in high school and whether or not they were sexually active in college: `Not sexually active in high school and in college`, `Sexually active in high school and not sexually active in college`, `Sexually active in high school and college`, and `Not sexually active in high school and sexually active in college`.
+
+```{r sex-groups}
+sex_survey_grouped <-
+  sex_survey %>%
+  mutate(partner_group = case_when(
+    partners == 0 & partners_college == 0 ~ "Not sexually active in high school and college",
+    partners > 0 & partners_college == 0 ~ "Sexually active in high school and not sexually active in college",
+    partners > 0 & partners_college > 0 ~ "Sexually active in high school and college",
+    partners == 0 & partners_college > 0 ~ "Not sexually active in high school and sexually active in college"
+  ))
+
+sex_survey_grouped %>%
+  filter(!is.na(partner_group)) %>%
+  count(partner_group)
+```
+
+There is a surprising result here: not a single person who wasn't sexually active in high school is sexually active in college. Since we expect that many people who abstain from sex do so for religious reasons, we want to know if this an accurate assumption within our data.
+
+####Religion and Abstinence
+
+```{r religious-abstinance}
+sex_survey_grouped %>%
+  filter(partner_group == "Not sexually active in high school and college" & !is.na(religious)) %>%
+  count(religious)
+```
+
+Just over 1/3 of those who declared themselves as Abstinent reported being religious. Therefore, the majority of non-religious abstinent people are remaining abstinent for other reasons.
+
+###College Major vs. Sexual Partners
+
+Next, we wanted to see if choice of major and number of sexual partners are at all correlated. We displayed the summary statistics for majors with more than 10 respondents, arranged by mean number of partners, and plotted the results below on a box and whisker plot.
+```{r by-major}
+sex_survey %>%
+  group_by(major_one) %>%
+  filter(!is.na(partners) & !is.na(major_one)) %>%
+  summarize(max = max(partners),
+            min = min(partners),
+            mean = mean(partners),
+            median = median(partners),
+            sd = sd(partners),
+            q1 = quantile(partners, .25),
+            q3 = quantile(partners, .75),
+            num = n()
+            ) %>%
+  filter(num > 10) %>%
+  arrange(desc(mean)) %>%
+  show()
+
+```
+
+```{r by-major-plots}
+
+sex_survey %>%
+  group_by(major_one)%>%
+  filter(!is.na(partners) & !is.na(major_one))%>%
+  filter(n() > 10)%>%
+  ggplot(aes(x = reorder(major_one, partners, FUN = median), y = partners)) +
+    geom_boxplot(varwidth = TRUE) +
+    coord_flip() +
+    labs(title = "College Major vs. Partners", subtitle = "Duke University Study, 2018", x = "Major", y = "Partners") +
+    theme_bw()
+```
+
+Economics and Biology topped the list with a mean of nearly six partners, while Public Policy Studies had the largest median with five partners. Biology and Computer Science had the most extreme upper outliers, with each major containing one observation of more than 30 sexual partners. There were no lower outliers because each major's lower whisker included 0 (the lowest possible value). One observation we instantly made is the stark contrast between Pratt and Trinity students. Does the stereotype that engineering majors have fewer sexual partners than other students hold true?
+
+####Trinity & Pratt vs. Sexual Partners
+
+We first categorized respondents into either Trinity or Pratt based on their major, then displayed the summary statistics for number of partners.
+```{r pratt-trinity}
+sex_survey <- sex_survey %>%
+  mutate(school = if_else(str_detect(major_one, "Engineering"), "Pratt", "Trinity"))
+
+sex_survey %>%
+  filter(!is.na(school) & !is.na(partners)) %>%
+  group_by(school) %>%
+  summarize(max = max(partners),
+            min = min(partners),
+            mean = mean(partners),
+            median = median(partners),
+            sd = sd(partners),
+            q1 = quantile(partners, .25),
+            q3 = quantile(partners, .75),
+            num = n()
+            )
+```
+
+It appears that the mean number of sexual partners for Trinity students is 4.82, higher than the mean number of sexual partners for Pratt students, at 3.55. But is this difference statistically significant? We performed a hypothesis test to find the answer.
+
+Our null hypothesis was that there was no difference between the means of the two groups, while our alternative hypothesis was that there was such a difference. 
+
+```{r pratt-trinity-diff-in-means}
+sex_survey_test <- sex_survey %>%
+  filter(!is.na(partners) & !is.na(school))%>%
+  specify(response = partners, explanatory = school) %>%
+  hypothesize(null = "independence") %>%
+  generate(reps = 1000, type = "permute") %>%
+  calculate(stat = "diff in means", order = c("Trinity", "Pratt"))
+
+ggplot(data = sex_survey_test, aes(x = stat)) +
+  geom_histogram(binwidth = .3) +
+  geom_vline(xintercept = 1.2746, color = "red") +
+  geom_vline(xintercept = -1 * 1.2746, color = "red") +
+  labs(title = "Null distribution of differences in Means", x = "Stat", y = "Count") +
+  theme_bw()
+
+sex_survey_test %>%
+  filter(stat >= 1.2746) %>%
+  summarise(p_value = 2 * (n() / 1000))
+```
+
+The histogram shows our simulated null distribution, with red lines marking our observed difference and negative one times that observed difference.
+
+Since the p value is greater than our significance level of .05, we can conclude that there is not enough evidence to determine that our observed difference was not a result of chance, so we fail to reject the null hypothesis. This steretype doesn't seem to hold true, at least in our sample. 
+
+### Greek Life & Year in School vs. Sexual Partners
+
+We also wanted to see if the stereotypes surrounding Greek life and sexual promiscuity were true for our dataset. After experimenting with our shiny app and grouping and coloring a bar graph with a broad mixture of categorial variables, we found that the bar graph grouped by year in school and colored by greek life was particularly interesting. Below we have calculated the summary statistics on our dataset based on year in school, and reproduced the graph of interest. 
+
+```{r by-year} 
+
+sex_survey %>%
+  group_by(year)%>%
+  filter(!is.na(partners) & !is.na(year))%>%
+  summarize(max = max(partners),
+            min = min(partners),
+            mean = mean(partners),
+            median = median(partners),
+            sd = sd(partners),
+            q1 = quantile(partners, .25),
+            q3 = quantile(partners, .75),
+            num = n()
+            )%>%
+  filter(num > 10)%>%
+  arrange(mean)%>%
+  show()
+
+sex_survey %>%
+  filter(!is.na(partners) & !is.na(year) & !is.na(relationship))%>%
+  mutate(year = factor(year, c("Freshman", "Sophomore", "Junior", "Senior")))%>%
+  group_by(year)%>%
+  ggplot(aes(x = year, y = partners, fill = greek)) +
+    geom_bar(stat = "summary", position = "dodge", fun.y = "mean") +
+  labs(title = "Greek Life and Year vs. Partners", subtitle = "Duke University Study, 2018", x = "Year", y = "Partners", fill = "Greek") +
+  theme_bw()
+
+```
+
+As seen in the summary statistics and the graph, the number of sexual partners, both mean and median, increases as year in school progresses (Seniors, on average, have had more sexual partners that freshmen, on average). This rather linear trend is what we expected to see in this graph; as people get older, they have had more sexual partners. This trend is extremely evident for Duke students who participate in Greek life. The average number of sexual partners greatly increases for students in Greek life throughout their 4 years in college, while the increase in average number of sexual partners for students who aren't in Greek life is much smaller. This results in a large gap in the overall mean numbers of sexual partners for students in Greek organizations and students who are not.
+
+To see whether this difference in number of sexual partners between students in Greek life and students not in Greek life is a significant one, we can again conduct a hypothesis test. Our null hypothesis is that there is no difference between the mean number of sexual partners for students in Greek organizations and students who are not. Our alternative hypothesis is that there is such a difference. To investigate this hypothesis, we can generate a null distribution, and then examine the p-value of seeing a result equally or more extreme than our observed result given that generated null distribution. 
+
+```{r greek-hypothesis-test}
+
+sex_survey_test <- sex_survey %>%
+  filter(!is.na(partners) & !is.na(greek))%>%
+  specify(response = partners, explanatory = greek) %>%
+  hypothesize(null = "independence") %>%
+  generate(reps = 1000, type = "permute") %>%
+  calculate(stat = "diff in means", order = c("Yes", "No"))
+
+ggplot(data = sex_survey_test, aes(x = stat)) +
+  geom_histogram(binwidth = .3) +
+  geom_vline(xintercept = 2.3182, color = "red") +
+  geom_vline(xintercept = -1 * 2.3182, color = "red") +
+  labs(title = "Null distribution of differences in Means", x = "Stat", y = "Count") +
+  theme_bw()
+
+sex_survey_test %>%
+  filter(stat >= 2.3182) %>%
+  summarise(p_value = 2 * (n() / 1000))
+
+```
+
+The red lines on the null distribution visualized in a histogram above represent the observed difference in means between the two groups and negative one times that difference, showing which data are equally or more extreme than our observed results.
+
+The p-value is 0, which gives us enough evidence to reject the null hypothesis and say that there is in fact a difference in the mean number of sexual partners between students who are in fraternities and sororities and students who are not. 
+
+### Linear Model
+
+After looking at these different factors and considering which have real correlations with numbers of sexual partners, a natural place to go next was to try to create a linear model which would predict number of sexual partners based on a number of factors.
+
+```{r create-models}
+
+sex_survey_model <- lm(partners ~ religion + greek + athlete + politics, data = sex_survey)
+
+sex_survey_model_backwards <- lm(partners ~ religion + year + age + gender + athlete + greek + politics + relationship, data = sex_survey)
+
+```
+
+We created two linear models, one using forward- and one using backward-selection for adjusted R^2 value. The backward-selection model modelled `partners` using the variables `religion`, `year`, `age`, `gender`, `athlete`, `greek`, `politics`, and `relationship`. The forward-selection model, which is shown below, modelled `partners` using the variables `religion`, `greek`, `athlete`, and `politics`, and its adjusted R^2 value was the higher of the two, at ```r glance(sex_survey_model)$adj.r.squared```, compared to the ```r glance(sex_survey_model_backwards)$adj.r.squared ``` of the backwards-selection model. 
+
+```{r model-display}
+
+(sex_survey_model)
+
+```
+
+###### Forwards-selection model adjusted R^2
+```{r glance-model}
+glance(sex_survey_model)$adj.r.squared
+```
+
+###### Backwards-selection model adjusted R^2
+```{r glance-model-backwards}
+glance(sex_survey_model_backwards)$adj.r.squared
+```
+
+This model is an interesting one. It includes `religion` and `politics`, two variables which in American conversation are usually seen as factors in people's sexual practices (religions having tenets condoning certain practices, and different political groups having different beliefs on social issues like sexual activity). It also includes two variables in the Duke community which are seen as factors in a person's level of sexual activity, `greek` and `athlete`, with both groups being stereotyped as having higher levels of sexual activity. Interestingly enough, however, it doesn't include `year` or `age`, indicating that perhaps people aren't having sex with a significant number of people throughout their college years. The model also doesn't include the `relationship` variable or the `major_one` variable, though that is perhaps unsurprising.
+
+Interpreting this model, we can see that the intercept is 8.3296, which means that this model predicts that a person who answered the responses corresponding to all of the baseline levels of this model would have 8.3296 lifetime sexual partners. The coefficients indicate the expected difference in number of sexual partners for respondents who answered that way. For example, the coefficient for "religionHinduism" is -9.4628, which means that this model predicts respondents who are Hindu to have had, on average, 9.4628 *fewer* sexual partners. These coefficients show some interesting patterns, such as "Yes" responses to the *Greek* and *Athlete* variables indicating more predicted sexual partners. 
+
+It is important, however, to take this model with a grain of salt because the adjusted R^2 is only ```r glance(sex_survey_model)$adj.r.squared```, which is rather small to make any judgements with.
+
+##Conclusion
+
+###Summary
+
+Overall, this dataset was very interesting for our group to work with and we discovered some intriguing relationships between the average number of sexual partners of Duke students and different demographic variables. We also enjoyed comparing our findings to typical stereotypes regarding sexual promiscuity and people of a certain demographic. Our shiny app allows us to analyze a variable number of relationships with ease by combining different categorical variables and seeing the resulting graph. 
+
+After running some initial summary statistics on average total number of sexual partners and average number of sexual partners since coming to college, we found that the mean was higher for total sexual partners while the median remained the same. This was an interesting observation, as it shows that people's sexual habits may remain the same throughout high school and college more often than is typically believed. 
+
+These initial summary statistics prompted us to group our dataset into 4 categories: Not sexually active in high school and college, Sexually active in high school and not sexually active in college, Sexually active in high school and college, Not sexually active in high school and sexually active in college. Perhaps the most shocking discovery throughout the entire project was finding that that there were zero observations of people who were not sexually active in high school, but sexually active in college. This caused us to wonder if perhaps this decision to remain abstinent was the result of religious views, so we decided to see how many of the people who weren't sexually active in high school or college were religious. About 1/3 of this group reported being religious.
+
+Next, we wanted to analyze the relationship between college major and number of sexual partners. We ran summary statistics on majors with more than 10 observations, and found that, on average, Economics and Biology majors are the most sexually active. After running these summary statistics and plotting box and whisker plots, it was evident that there was a difference (in our dataset) between the mean number of sexual partners of Trinity majors and of Pratt majors. To investigate this observed difference further, we grouped our dataset based on which school the observed major was in: Trinity or Pratt. After running summary statistics on this variable, our data showed that the mean number of sexual partners was higher for Trinity students but that the median was the same for Trinity and Pratt students. In order to determine if this difference was statistically significant, we ran an independence test and found that the p value was greater than our significance level of 0.05, so the results were not statistically significant.
+
+We also wanted to look at the relationship between greek life participation, year in school, and number of sexual partners. We found that the number of sexual partners increases as year in school progresses, which is something we would expect. We also found that this is particularly true for students who participate in greek life. To see if this finding was statistically significant, we ran a hypothesis test on the difference between mean number of sexual partners for those involved in greek life and those not involved in greek life. This hypothesis test produced a p-value of zero, which suggests that this difference is meaningful and that the stereotypes surrounding greek life and sexual promiscuity may have some validity to them. 
+
+Finally, we decided to create a linear model to fully address our research question and determine which demographic factors had the strongest relationship with number of sexual partners. We created two linear models using forward and backward selection with the adjusted R-squared value. The forward selection model included religion, greek, athlete, and politics as influential variables and had an adjusted R-squared value of 0.2147764, which was higher than the backward selection model with 0.1728393. This model is rather interesting as it includes variables we would expect to be in the model, but it leaves out variables such as age that people would typically expect to be positively correlated with number of sexual partners. 
+
+In conclusion, we found that *religion*, *greek*, *athlete*, and *politics* were the demographic factors that were most strongly associated with number of sexual partners. Of course, other demographic variables could definitely be influential and these demographic variables may not be the most influential overall, but this is what we were able to conclude with the tests we ran. We could not confirm some stereotypes regarding sexual activity, while we did find evidence supporting others. This project definitely gives way to further statistical research in the area. 
+
+###Critiques
+
+Because our survey was voluntary and taken primarily by Duke students and people we know, we are aware that our data may be skewed and not necessarily very representative of the Duke population, or of students as a whole. For example, because we are sophomores, we got significantly more responses from sophomores as opposed to people from other years. Our data is also subject to voluntary response bias. We only shared the survey on Facebook, so our sample is only representative of Duke students on Facebook who were interested in sharing details of their personal lives. The sample is not representative of people who don't check Facebook often, or people who might have been uncomfortable with the survey's subject matter at first glance. 
+
+As far as the content of our survey, we could have been more specific and thorough in our questioning. One of the most glaring omissions was of the lack of a definition for "sexual partner." This definition varies between people, and may have influenced people's individual responses. Additionally, there may be other confounding variables that we didn't ask for in the survey. For example, data on sexual orientation would've been useful for our analysis. We also could've included additional numerical variables, for instance, a rating of how sexually active people thought they were compared to the rest of the Duke community (1 being less sexually active than nearly all Duke students, 10 being more sexually active than nearly all Duke students, and 5 being in the middle) in order to gauge Duke students' views on sex and dating at Duke, compared to their actual behavior. Adding more numerical variables would have allowed us to use a wider variety of statistical techniques. Further, we didn't include any questions about objective frequency of sexual activity, only number of sexual partners, which led to our missing out on several different angles of questioning. 
+
+Something that wasn't really a limitation, but that we had to consider, was the sensitivity of our subject matter. We are aware that the content of our survey is rather personal. Although our survey was intended to be entirely anonymous, due to the relatively small size of our dataset (around 350 observations), we recognize that it is potentially possible for an observer to identify a person based on his or her responses to our survey. For this reason, we made sure that multiple visualizations did not show the same data points displayed with different demographic information. We did not want the people reading our project to be able to combine information from multiple visualizations and further determine who the responses belonged to based on that information.
